@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5230A6286B5ED600F6199B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230A5286B5ED600F6199B /* AppDelegate.swift */; };
+		BD5230A8286B5ED600F6199B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230A7286B5ED600F6199B /* SceneDelegate.swift */; };
+		BD5230AA286B5ED600F6199B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230A9286B5ED600F6199B /* ViewController.swift */; };
+		BD5230AD286B5ED600F6199B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5230AB286B5ED600F6199B /* Main.storyboard */; };
+		BD5230B0286B5ED600F6199B /* e_bility.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5230AE286B5ED600F6199B /* e_bility.xcdatamodeld */; };
+		BD5230B2286B5ED800F6199B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5230B1286B5ED800F6199B /* Assets.xcassets */; };
+		BD5230B5286B5ED800F6199B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5230B3286B5ED800F6199B /* LaunchScreen.storyboard */; };
+		BD5230C0286B5ED800F6199B /* e_bilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230BF286B5ED800F6199B /* e_bilityTests.swift */; };
+		BD5230CA286B5ED800F6199B /* e_bilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230C9286B5ED800F6199B /* e_bilityUITests.swift */; };
+		BD5230CC286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230CB286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5230BC286B5ED800F6199B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD52309A286B5ED600F6199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5230A1286B5ED600F6199B;
+			remoteInfo = "e-bility";
+		};
+		BD5230C6286B5ED800F6199B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD52309A286B5ED600F6199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5230A1286B5ED600F6199B;
+			remoteInfo = "e-bility";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD5230A2286B5ED600F6199B /* e-bility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-bility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5230A5286B5ED600F6199B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD5230A7286B5ED600F6199B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD5230A9286B5ED600F6199B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD5230AC286B5ED600F6199B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5230AF286B5ED600F6199B /* e_bility.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = e_bility.xcdatamodel; sourceTree = "<group>"; };
+		BD5230B1286B5ED800F6199B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD5230B4286B5ED800F6199B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD5230B6286B5ED800F6199B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5230BB286B5ED800F6199B /* e-bilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-bilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5230BF286B5ED800F6199B /* e_bilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_bilityTests.swift; sourceTree = "<group>"; };
+		BD5230C5286B5ED800F6199B /* e-bilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-bilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5230C9286B5ED800F6199B /* e_bilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_bilityUITests.swift; sourceTree = "<group>"; };
+		BD5230CB286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_bilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD52309F286B5ED600F6199B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5230B8286B5ED800F6199B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5230C2286B5ED800F6199B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD523099286B5ED600F6199B = {
+			isa = PBXGroup;
+			children = (
+				BD5230A4286B5ED600F6199B /* e-bility */,
+				BD5230BE286B5ED800F6199B /* e-bilityTests */,
+				BD5230C8286B5ED800F6199B /* e-bilityUITests */,
+				BD5230A3286B5ED600F6199B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5230A3286B5ED600F6199B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5230A2286B5ED600F6199B /* e-bility.app */,
+				BD5230BB286B5ED800F6199B /* e-bilityTests.xctest */,
+				BD5230C5286B5ED800F6199B /* e-bilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5230A4286B5ED600F6199B /* e-bility */ = {
+			isa = PBXGroup;
+			children = (
+				BD5230A5286B5ED600F6199B /* AppDelegate.swift */,
+				BD5230A7286B5ED600F6199B /* SceneDelegate.swift */,
+				BD5230A9286B5ED600F6199B /* ViewController.swift */,
+				BD5230AB286B5ED600F6199B /* Main.storyboard */,
+				BD5230B1286B5ED800F6199B /* Assets.xcassets */,
+				BD5230B3286B5ED800F6199B /* LaunchScreen.storyboard */,
+				BD5230B6286B5ED800F6199B /* Info.plist */,
+				BD5230AE286B5ED600F6199B /* e_bility.xcdatamodeld */,
+			);
+			path = "e-bility";
+			sourceTree = "<group>";
+		};
+		BD5230BE286B5ED800F6199B /* e-bilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5230BF286B5ED800F6199B /* e_bilityTests.swift */,
+			);
+			path = "e-bilityTests";
+			sourceTree = "<group>";
+		};
+		BD5230C8286B5ED800F6199B /* e-bilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5230C9286B5ED800F6199B /* e_bilityUITests.swift */,
+				BD5230CB286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift */,
+			);
+			path = "e-bilityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5230A1286B5ED600F6199B /* e-bility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5230CF286B5ED800F6199B /* Build configuration list for PBXNativeTarget "e-bility" */;
+			buildPhases = (
+				BD52309E286B5ED600F6199B /* Sources */,
+				BD52309F286B5ED600F6199B /* Frameworks */,
+				BD5230A0286B5ED600F6199B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-bility";
+			productName = "e-bility";
+			productReference = BD5230A2286B5ED600F6199B /* e-bility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5230BA286B5ED800F6199B /* e-bilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5230D2286B5ED800F6199B /* Build configuration list for PBXNativeTarget "e-bilityTests" */;
+			buildPhases = (
+				BD5230B7286B5ED800F6199B /* Sources */,
+				BD5230B8286B5ED800F6199B /* Frameworks */,
+				BD5230B9286B5ED800F6199B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5230BD286B5ED800F6199B /* PBXTargetDependency */,
+			);
+			name = "e-bilityTests";
+			productName = "e-bilityTests";
+			productReference = BD5230BB286B5ED800F6199B /* e-bilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5230C4286B5ED800F6199B /* e-bilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5230D5286B5ED800F6199B /* Build configuration list for PBXNativeTarget "e-bilityUITests" */;
+			buildPhases = (
+				BD5230C1286B5ED800F6199B /* Sources */,
+				BD5230C2286B5ED800F6199B /* Frameworks */,
+				BD5230C3286B5ED800F6199B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5230C7286B5ED800F6199B /* PBXTargetDependency */,
+			);
+			name = "e-bilityUITests";
+			productName = "e-bilityUITests";
+			productReference = BD5230C5286B5ED800F6199B /* e-bilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD52309A286B5ED600F6199B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD5230A1286B5ED600F6199B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD5230BA286B5ED800F6199B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD5230A1286B5ED600F6199B;
+					};
+					BD5230C4286B5ED800F6199B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD5230A1286B5ED600F6199B;
+					};
+				};
+			};
+			buildConfigurationList = BD52309D286B5ED600F6199B /* Build configuration list for PBXProject "e-bility" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD523099286B5ED600F6199B;
+			productRefGroup = BD5230A3286B5ED600F6199B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5230A1286B5ED600F6199B /* e-bility */,
+				BD5230BA286B5ED800F6199B /* e-bilityTests */,
+				BD5230C4286B5ED800F6199B /* e-bilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5230A0286B5ED600F6199B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5230B5286B5ED800F6199B /* LaunchScreen.storyboard in Resources */,
+				BD5230B2286B5ED800F6199B /* Assets.xcassets in Resources */,
+				BD5230AD286B5ED600F6199B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5230B9286B5ED800F6199B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5230C3286B5ED800F6199B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD52309E286B5ED600F6199B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5230AA286B5ED600F6199B /* ViewController.swift in Sources */,
+				BD5230A6286B5ED600F6199B /* AppDelegate.swift in Sources */,
+				BD5230B0286B5ED600F6199B /* e_bility.xcdatamodeld in Sources */,
+				BD5230A8286B5ED600F6199B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5230B7286B5ED800F6199B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5230C0286B5ED800F6199B /* e_bilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5230C1286B5ED800F6199B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5230CC286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift in Sources */,
+				BD5230CA286B5ED800F6199B /* e_bilityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5230BD286B5ED800F6199B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5230A1286B5ED600F6199B /* e-bility */;
+			targetProxy = BD5230BC286B5ED800F6199B /* PBXContainerItemProxy */;
+		};
+		BD5230C7286B5ED800F6199B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5230A1286B5ED600F6199B /* e-bility */;
+			targetProxy = BD5230C6286B5ED800F6199B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5230AB286B5ED600F6199B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5230AC286B5ED600F6199B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5230B3286B5ED800F6199B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5230B4286B5ED800F6199B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5230CD286B5ED800F6199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD5230CE286B5ED800F6199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5230D0286B5ED800F6199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "e-bility/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.e-bility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5230D1286B5ED800F6199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "e-bility/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.e-bility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD5230D3286B5ED800F6199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.e-bilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e-bility.app/e-bility";
+			};
+			name = Debug;
+		};
+		BD5230D4286B5ED800F6199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.e-bilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e-bility.app/e-bility";
+			};
+			name = Release;
+		};
+		BD5230D6286B5ED800F6199B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.e-bilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e-bility";
+			};
+			name = Debug;
+		};
+		BD5230D7286B5ED800F6199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.e-bilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e-bility";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD52309D286B5ED600F6199B /* Build configuration list for PBXProject "e-bility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5230CD286B5ED800F6199B /* Debug */,
+				BD5230CE286B5ED800F6199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5230CF286B5ED800F6199B /* Build configuration list for PBXNativeTarget "e-bility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5230D0286B5ED800F6199B /* Debug */,
+				BD5230D1286B5ED800F6199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5230D2286B5ED800F6199B /* Build configuration list for PBXNativeTarget "e-bilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5230D3286B5ED800F6199B /* Debug */,
+				BD5230D4286B5ED800F6199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5230D5286B5ED800F6199B /* Build configuration list for PBXNativeTarget "e-bilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5230D6286B5ED800F6199B /* Debug */,
+				BD5230D7286B5ED800F6199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD5230AE286B5ED600F6199B /* e_bility.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD5230AF286B5ED600F6199B /* e_bility.xcdatamodel */,
+			);
+			currentVersion = BD5230AF286B5ED600F6199B /* e_bility.xcdatamodel */;
+			path = e_bility.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD52309A286B5ED600F6199B /* Project object */;
+}
