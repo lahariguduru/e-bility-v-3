@@ -9,11 +9,17 @@ import UIKit
 
 class FourthViewController: UIViewController {
 
+var imagePicker = UIImagePickerController()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        imagePicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
+    
+    
     
 
     /*

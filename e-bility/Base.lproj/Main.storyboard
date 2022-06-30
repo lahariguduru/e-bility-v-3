@@ -152,6 +152,9 @@
                                                     <color key="baseForegroundColor" red="0.18823529780000001" green="0.4352940917" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="pWI-7c-uvQ" kind="presentation" id="OdW-2V-Bda"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2d-WW-tJB">
                                                 <rect key="frame" x="63" y="35" width="92" height="40"/>
@@ -162,6 +165,9 @@
                                                     <color key="baseForegroundColor" red="0.18823529780000001" green="0.4352940917" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Q23-6z-fac" kind="presentation" id="sgq-ai-1uN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puW-wi-bue">
                                                 <rect key="frame" x="143" y="37" width="89" height="40"/>
@@ -172,6 +178,9 @@
                                                     <color key="baseForegroundColor" red="0.18823529780000001" green="0.4352940917" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="6NE-ab-O4b" kind="presentation" id="JqL-G5-y71"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDt-Aj-Gym">
                                                 <rect key="frame" x="325" y="35" width="81" height="42"/>
@@ -182,6 +191,9 @@
                                                     <color key="baseForegroundColor" red="0.18823529780000001" green="0.4352940917" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="NQn-6T-EKx" kind="presentation" id="Z2p-he-1l0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToW-aM-409">
                                                 <rect key="frame" x="213" y="35" width="114" height="40"/>
@@ -192,6 +204,9 @@
                                                     <color key="baseForegroundColor" red="0.18823529780000001" green="0.4352940917" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="hp4-UU-85F" kind="presentation" id="iCi-sz-cXI"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-30 at 2.05.32 PM" translatesAutoresizingMaskIntoConstraints="NO" id="AvY-Ym-g1S">
                                                 <rect key="frame" x="88" y="507" width="239" height="151"/>
@@ -232,7 +247,7 @@
         <!--Eighth View Controller-->
         <scene sceneID="DCH-kr-dwX">
             <objects>
-                <viewController id="pWI-7c-uvQ" customClass="EighthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="pWI-7c-uvQ" customClass="EighthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Ku-Pn-UeY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -309,6 +324,9 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Q23-6z-fac" kind="presentation" id="9nY-4w-fFM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3Q-yb-6Da">
                                 <rect key="frame" x="146" y="59" width="89" height="40"/>
@@ -319,6 +337,9 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6NE-ab-O4b" kind="presentation" id="Xof-SA-YiR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1GR-Ab-gnZ">
                                 <rect key="frame" x="328" y="59" width="81" height="42"/>
@@ -329,6 +350,9 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NQn-6T-EKx" kind="presentation" id="TIP-HT-scW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHt-gR-t75">
                                 <rect key="frame" x="229" y="59" width="114" height="40"/>
@@ -339,6 +363,9 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="hp4-UU-85F" kind="presentation" id="OT2-ZL-EjA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KNL-O2-p5c"/>
@@ -352,7 +379,7 @@
         <!--Fourth View Controller-->
         <scene sceneID="fZn-xs-LJc">
             <objects>
-                <viewController id="Q23-6z-fac" customClass="FourthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Q23-6z-fac" customClass="FourthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lcx-Eq-X2K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -389,6 +416,9 @@
                                     <color key="baseForegroundColor" red="0.29803922770000002" green="0.28627452250000002" blue="0.21960783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pWI-7c-uvQ" kind="presentation" id="B3u-hQ-7xn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmf-RC-AHW">
                                 <rect key="frame" x="76" y="44" width="92" height="40"/>
@@ -409,6 +439,9 @@
                                     <color key="baseForegroundColor" red="0.29803922770000002" green="0.28627452250000002" blue="0.21960783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NQn-6T-EKx" kind="presentation" id="BIr-Vx-moo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1Z-Wo-zIh">
                                 <rect key="frame" x="221" y="44" width="114" height="40"/>
@@ -419,6 +452,9 @@
                                     <color key="baseForegroundColor" red="0.29803922770000002" green="0.28627452250000002" blue="0.21960783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="hp4-UU-85F" kind="presentation" id="N2K-By-kUj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDU-zI-0p2">
                                 <rect key="frame" x="148" y="45" width="89" height="40"/>
@@ -429,6 +465,9 @@
                                     <color key="baseForegroundColor" red="0.29803922770000002" green="0.28627452250000002" blue="0.21960783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6NE-ab-O4b" kind="presentation" id="3X2-kT-EVq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ngQ-YO-qxH"/>
@@ -442,7 +481,7 @@
         <!--Fifth View Controller-->
         <scene sceneID="KH3-En-DP0">
             <objects>
-                <viewController id="6NE-ab-O4b" customClass="FifthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="6NE-ab-O4b" customClass="FifthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zUg-4r-ysa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -525,7 +564,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eF6-DC-YIC">
-                                <rect key="frame" x="0.0" y="44" width="81" height="40"/>
+                                <rect key="frame" x="-1" y="46" width="81" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Profile">
@@ -533,9 +572,12 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pWI-7c-uvQ" kind="presentation" id="8VX-Dp-83M"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWV-m6-VTl">
-                                <rect key="frame" x="71" y="44" width="92" height="40"/>
+                                <rect key="frame" x="71" y="46" width="92" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Upload">
@@ -543,9 +585,12 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Q23-6z-fac" kind="presentation" id="EcP-uk-0AI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwS-6O-cOk">
-                                <rect key="frame" x="155" y="44" width="89" height="40"/>
+                                <rect key="frame" x="155" y="46" width="89" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Discuss">
@@ -555,7 +600,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1w-ja-Dl5">
-                                <rect key="frame" x="224" y="44" width="114" height="40"/>
+                                <rect key="frame" x="224" y="46" width="114" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Resources">
@@ -563,9 +608,12 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="hp4-UU-85F" kind="presentation" id="S54-ha-yih"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3f-t8-hq8">
-                                <rect key="frame" x="333" y="44" width="81" height="42"/>
+                                <rect key="frame" x="333" y="46" width="81" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="About">
@@ -573,6 +621,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NQn-6T-EKx" kind="presentation" id="KF5-KR-7Xb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RST-fl-DCJ"/>
@@ -588,7 +639,7 @@
         <!--Sixth View Controller-->
         <scene sceneID="1su-NB-l25">
             <objects>
-                <viewController id="hp4-UU-85F" customClass="SixthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hp4-UU-85F" customClass="SixthViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y68-7T-7EB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -660,7 +711,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2y-sb-kMF">
-                                <rect key="frame" x="3" y="45" width="81" height="40"/>
+                                <rect key="frame" x="0.0" y="45" width="81" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Profile">
@@ -668,9 +719,12 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pWI-7c-uvQ" kind="presentation" id="x3T-W4-NI6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41m-fl-9AU">
-                                <rect key="frame" x="71" y="44" width="92" height="40"/>
+                                <rect key="frame" x="80" y="44" width="92" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Upload">
@@ -678,19 +732,12 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMm-tD-Z9e">
-                                <rect key="frame" x="151" y="46" width="89" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Discuss">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                    <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Q23-6z-fac" kind="presentation" id="Vby-10-mOe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caT-YM-RDH">
-                                <rect key="frame" x="333" y="44" width="81" height="42"/>
+                                <rect key="frame" x="333" y="46" width="81" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="About">
@@ -698,9 +745,12 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NQn-6T-EKx" kind="presentation" id="oL6-ke-zgn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldB-Mp-hkM">
-                                <rect key="frame" x="221" y="44" width="114" height="40"/>
+                                <rect key="frame" x="235" y="46" width="114" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Resources">
@@ -708,6 +758,19 @@
                                     <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMm-tD-Z9e">
+                                <rect key="frame" x="163" y="44" width="89" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Discuss">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.90588235859999999" green="0.85882353779999998" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6NE-ab-O4b" kind="presentation" id="qcr-Xk-E03"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z4y-hn-49k"/>
@@ -721,7 +784,7 @@
         <!--Seventh View Controller-->
         <scene sceneID="h6V-Vt-Wv1">
             <objects>
-                <viewController id="NQn-6T-EKx" customClass="SeventhViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="NQn-6T-EKx" customClass="SeventhViewController" customModule="e_bility" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qcc-fd-KT0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -784,6 +847,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pWI-7c-uvQ" kind="presentation" id="QUq-Xr-w0h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgn-91-8e0">
                                 <rect key="frame" x="62" y="44" width="92" height="40"/>
@@ -794,6 +860,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Q23-6z-fac" kind="presentation" id="L79-NV-sxy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oz0-cw-7jb">
                                 <rect key="frame" x="142" y="46" width="89" height="40"/>
@@ -804,6 +873,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6NE-ab-O4b" kind="presentation" id="W5a-n7-pcz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNM-Qt-S4c">
                                 <rect key="frame" x="324" y="44" width="81" height="42"/>
@@ -824,6 +896,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="hp4-UU-85F" kind="presentation" id="LGw-rD-3Uj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cpM-dG-ApD"/>
@@ -835,6 +910,13 @@
             <point key="canvasLocation" x="4895.652173913044" y="79.6875"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="BIr-Vx-moo"/>
+        <segue reference="N2K-By-kUj"/>
+        <segue reference="3X2-kT-EVq"/>
+        <segue reference="L79-NV-sxy"/>
+        <segue reference="B3u-hQ-7xn"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="RETRO_GROOVE-removebg-preview" width="500" height="500"/>
         <image name="Screen Shot 2022-06-30 at 2.05.12 PM" width="774" height="454"/>
