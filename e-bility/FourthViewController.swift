@@ -14,7 +14,7 @@ var imagePicker = UIImagePickerController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imagePicker.delegate = self
+        //imagePicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
