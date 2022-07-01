@@ -9,13 +9,31 @@ import UIKit
 
 class FifthViewController: UIViewController {
 
+    
+    @IBOutlet var responseText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        responseText.isHidden = true
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet var submitButton: UIButton!
+    
+    @IBAction func submitButton(_ sender: Any) {
+        responseText.isHidden = false
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

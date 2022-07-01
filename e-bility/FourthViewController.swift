@@ -7,18 +7,29 @@
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class FourthViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
 var imagePicker = UIImagePickerController()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //imagePicker.delegate = self
+        imagePicker.delegate = self
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func choosePhotoTapped(_ sender: Any) {
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated:true, completion:nil)
+    }
+    
+    
+    @IBAction func takeAPicture(_ sender: Any) {
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated:true, completion:nil)
+    }
     
     
 
